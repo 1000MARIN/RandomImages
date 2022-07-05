@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         box_bk = findViewById(R.id.box_bk);
         box_be = findViewById(R.id.box_be);
 
-
         h1.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -44,9 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-
         }, 1000);
-
 
         h2.postDelayed(new Runnable() {
             @Override
@@ -54,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 box_bk.setVisibility(View.INVISIBLE);
                 box_be.setVisibility(View.VISIBLE);
             }
-
         }, 2000);
 
         h3.postDelayed(new Runnable() {
@@ -65,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-
         }, 3000);
 
         h4.postDelayed(new Runnable() {
@@ -85,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-
         }, 5000);
 
         h6.postDelayed(new Runnable() {
@@ -94,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 box_bk.setVisibility(View.INVISIBLE);
                 box_be.setVisibility(View.VISIBLE);
             }
-
         }, 6000);
 
         h7.postDelayed(new Runnable() {
@@ -105,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-
         }, 7000);
 
         h8.postDelayed(new Runnable() {
@@ -125,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-
         }, 9000);
 
     }
