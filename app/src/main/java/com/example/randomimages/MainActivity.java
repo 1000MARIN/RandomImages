@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 int imageId = (int)(Math.random() * images.length);
                 mImageView.setImageResource(images[imageId]);
             }
-        }, 9000);
+        }, 10000);
 
     }
 }
