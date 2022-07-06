@@ -51,10 +51,8 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 box_bk.setVisibility(View.VISIBLE);
                 ImageView mImageView = (ImageView)findViewById(R.id.box_bk);
-                for (int i = 0; i < images.length; i++) {
-                    int imageId = (int)(rd.nextInt(images.length));
-                    mImageView.setImageResource(images[imageId]);
-                }
+                int imageId = (int)(rd.nextInt(images.length));
+                mImageView.setImageResource(images[imageId]);
 
             }
         }, 1000);
